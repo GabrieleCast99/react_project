@@ -1,16 +1,20 @@
 export function Footer() {
     const footerStyle = {
-        position: 'absolute',
+        position: 'fixed',
         bottom: 0,
-        right: 0,
+        left: 0,
+        width: '100%',
         padding: '10px',
-        background: 'white', 
+        background: 'black',
+        color: 'white',
+        textAlign: 'center',
+        marginTop: '20px' // Aggiungi un margine superiore
+
     };
 
     return (
         <footer style={footerStyle}>
-            <p>© 2024 Nome della tua azienda</p>
+            <p>© 2024 Gabriele Castiglione</p>
         </footer>
     );
 }
-
